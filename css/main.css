@@ -1,0 +1,42 @@
+.header {
+    background: #FFF;
+    display: flex;
+    width: 1920px;
+    height: 1080px;
+    flex-shrink: 0;
+}
+
+.bg1 {
+    background: #c3f9c3;
+    width: 1840px;
+    height: 800px;
+    flex-shrink: 0;
+    margin: 25px 25px 0 25px;
+}
+
+.headerL {
+    background:#F3F8F3 ;
+    width: 5%;
+    margin: 30px 1805px 45px 35px;
+}
+
+.menu{
+    display: flex;
+    width: 440px;
+    height: 25px;
+    flex-shrink: 0;
+    margin: -90px 1805px 45px 170px;
+    list-style-type: none;
+
+}
+
+header a {
+
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 32px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+}
