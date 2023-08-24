@@ -1,42 +1,108 @@
 .header {
+
     background: #FFF;
     display: flex;
-    width: 1920px;
-    height: 1080px;
+    width: max(12.5rem, 120rem);
+    height: max(12.5rem, 67.5rem);
     flex-shrink: 0;
 }
 
+
 .bg1 {
     background: #c3f9c3;
-    width: 1840px;
-    height: 800px;
+    width: max(12.5rem, 115rem);
+    height: max(12.5rem, 50rem);
     flex-shrink: 0;
-    margin: 25px 25px 0 25px;
+    margin: 1.563rem 1.563rem 0 1.563rem;
 }
 
 .headerL {
     background:#F3F8F3 ;
-    width: 5%;
-    margin: 30px 1805px 45px 35px;
+    margin: 1.875rem 112.813rem 2.813rem 2.188rem;
 }
 
 .menu{
     display: flex;
-    width: 440px;
-    height: 25px;
+    width: 58.938rem;
+    height: 1.563rem;
     flex-shrink: 0;
-    margin: -90px 1805px 45px 170px;
+    margin: -5.625rem 112.813rem 2.813rem 10.625rem;
     list-style-type: none;
 
 }
 
-header a {
-
+header a  {
+    width: 5.313rem;
     color: #000;
     display: flex;
     justify-content: space-between;
-    margin-right: 32px;
-
+    margin-right: 1.375rem;
     text-transform: uppercase;
     text-decoration: none;
 }
+
+.m3\.background {
+    color: #FFF;
+    background: #FFA500;
+    width: 3.438rem;
+    height: 1.313rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin:0 0.938rem 0 5.625rem;
+}
+
+.menu\.background {
+    text-align: center;
+    padding-left: 4.375rem;
+    padding-top: 0.313rem;
+    width: 25rem;
+    height: 1.875rem;
+    flex-shrink: 0;
+    margin: -0.313rem 0 0 -4.688rem;
+    border-radius: 1.563rem;
+
+    border: 0.125rem solid #50b2ec;
+}
+
+.menu\.background2{
+    width: 3.375rem;
+    height: 0.938rem;
+    margin: 0 1.563rem 0 28.125rem;
+
+}
+
+.menu\.background3 {
+    width: 3.688rem;
+    height: 0.938rem;
+    margin: 0 0 0 ;
+}
+
+.line_login {
+    background: #FFA500;
+    width: 3.75rem;
+    height: 0.125rem;
+    margin: -3.125rem 0 0 102.6565rem;
+    flex-shrink: 0;
+}
+
+.bord_signin{
+    width: 5.5rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    margin: -2.125rem 0 0 107rem;
+    background: #F6B846FF;
+}
+.elearn{
+    color: #F6B846FF;
+    font-family: Arial, sans-serif;
+    font-size: 2.188rem;
+    font-style: oblique;
+    font-weight: 400;
+    line-height: 3.125rem;
+    margin:4.375rem 0 0 5.625rem;
+}
+
+
