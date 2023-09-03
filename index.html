@@ -3,80 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <title>Test page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
     <script src="./js/index.js" defer></script>
 </head>
 <body>
-<header class="header">
-    <div class="bg1">
-        <img class="headerL" src="./img/headerL.jpg" alt="logo">
+<section class="infromation">
+    <header>
+        <div class="menu__logo"></div>
         <ul class="menu">
             <li>
-                <a href="#">
-                    About us
-                </a>
+                <a href="#">About us</a>
             </li>
             <li>
-                <a href="#">
-                    Courses
-                </a>
+                <a href="#">Courses</a>
             </li>
             <li>
-                <a href="#">
-                    Mentors
-                </a>
+                <a href="#">Teachers</a>
             </li>
             <li>
-                <a href="#">
-                    Price list
-                </a>
+                <a href="#">Pricing</a>
             </li>
             <li>
-                <p class="m3.background">
-                    new
-                </p>
-            </li>
-            <li>
-                <a class="menu.background" href="#">
-                    Become our business partner online
-                </a>
-            <li>
-                <a class="menu.background2" href="#">
-                    Log in
-                </a>
-            </li>
-            <li>
-                <a class="menu.background3" href="#">
-                    Sign in
-                </a>
+                <a class="menu__li5" href="#">
+                    <span>NEW</span> Becoming a business partner on online</a>
             </li>
         </ul>
-        <p class="line_login"></p>
-        <p class="bord_signin"></p>
-        <p class="caption_elearn">E-Learning</p>
-        <p class="caption_dreambig">Dream big Do right.</p>
-        <p class="caption_sitehelps">Slite helps remote teams share ideas, save knowledge, and work together anytime,
-            any place.</p>
-        <p class="bord_getstarted"></p>
-        <a class="caption_getstarted" href="#">Get Started Now</a>
-        <a class="caption_watchplatform_b" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62" fill="none">
-                <circle cx="31" cy="31" r="31" fill="#FFA500FF"/>
-                <path d="M39 31.5L27.75 25.0048V37.9952L39 31.5Z" fill="#F3F8F3FF"/>
-            </svg>
-        </a>
-        <p class="caption_watchplatform">Watch our platform!</p>
-        <div class="bg3">
+        <div class="_row-buttons">
+            <input class="menu__login" type="button" value="Log In">
+            <input class="menu__signin" type="button" value="Sign In">
         </div>
-
-
-    </div>
-
+    </header>
     <div class="container">
-
+        <h1>E-learning</h1>
+        <h2>Dream big Do right!</h2>
+        <p>
+            Site helps remote teams share ideas, save knowledge,
+            and work together anytime, any place.
+        </p>
+        <div class="_row-buttons">
+            <input class="_big-blue-button" type="button" value="Get Started Now">
+            <a class="_watch-play" href="#"></a>
+            <input class="_watch" type="button" value="Watch our platform!">
+        </div>
     </div>
+</section>
+<section class="container_2">
+    <p class="txt_about-us"> about us</p>
+    <div class="container_2__get-start">
+        <h2 class="txt_getstarted"> Get Started With Educa Studya. </h2>
 
-
-</header>
+        <a class="txt_viewall" href="#"> View all</a>
+    </div>
+    <div class="container_2__blocks">
+        <a class="block_faster" href="#"> Faster </a>
+        <!--         повторить всё то же самое для остальных <a></a>-->
+        <a class="block_cheeper" href="#">Cheeper</a>
+        <a class="block_at-hand" href="#">At hand</a>
+    </div>
+</section>
 </body>
 </html>
