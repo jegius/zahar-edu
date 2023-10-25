@@ -1,127 +1,210 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Test page</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/main.css">
-    <script src="./js/index.js" defer></script>
+    <title>Educa E-learning</title>
 </head>
-<body>
-<section class="infromation">
-    <header>
-        <div class="menu__logo"></div>
-        <ul class="menu">
-            <li>
-                <a href="#">About us</a>
-            </li>
-            <li>
-                <a href="#">Courses</a>
-            </li>
-            <li>
-                <a href="#">Teachers</a>
-            </li>
-            <li>
-                <a href="#">Pricing</a>
-            </li>
-            <li>
-                <a class="menu__li5" href="#">
-                    <span>NEW</span> Becoming a business partner on online</a>
-            </li>
-        </ul>
-        <div class="_row-buttons">
-            <input class="menu__login" type="button" value="Log In">
-            <input class="menu__signin" type="button" value="Sign In">
-        </div>
-    </header>
-    <div class="container">
-        <h1>E-learning</h1>
-        <h2>Dream big Do right!</h2>
-        <p>
-            Site helps remote teams share ideas, save knowledge,
-            and work together anytime, any place.
-        </p>
-        <div class="_row-buttons">
-            <input class="_big-blue-button" type="button" value="Get Started Now">
-            <a class="_watch-play" href="#"></a>
-            <input class="_watch" type="button" value="Watch our platform!">
-        </div>
-    </div>
-</section>
-<section class="container_2">
-    <p class="txt_about-us"> about us</p>
-    <div class="container_2__get-start">
-        <h2 class="txt_getstarted"> Get Started With Educa Studya. </h2>
-
-        <input class="txt_viewall" type="button" value="View all">
-    </div>
-    <ul class="container_2__blocks">
-        <li><a class="block_faster" href="#"> Faster </a></li>
-        <li><a class="block_cheeper" href="#">Cheeper</a></li>
-        <li><a class="block_at-hand" href="#">At hand</a></li>
+<body class="main">
+<header class="navigation">
+    <div class="navigation__logo"></div>
+    <ul class="navigation__menu">
+        <li>
+            <a class="navigation__menu-item" href="#">About us</a>
+        </li>
+        <li>
+            <a class="navigation__menu-item" href="#">Courses</a>
+        </li>
+        <li>
+            <a class="navigation__menu-item" href="#">Teachers</a>
+        </li>
+        <li>
+            <a class="navigation__menu-item" href="#">Pricing</a>
+        </li>
+        <li>
+            <a class="navigation__menu-item navigation__menu-new-becoming" href="#">
+                <span class="navigation__menu-highlighting">NEW</span> Becoming a business partner on online</a>
+        </li>
     </ul>
-</section>
-
-<section class="container_3 ">
-    <h1>Educa Studya Features</h1>
-    <div>
-        <h2>Where collaboration
-            meets knowledge!</h2>
-        <p>
-            Dive into a doc together and express your first ideas,
-            get feedback, map out a plan or write up the final documentation.
-            Compose your most important work, together— no matter where you are in the world. </p>
+    <div class="navigation__buttons">
+        <input class="navigation__login" type="button" value="Log In">
+        <input class="navigation__signin" type="button" value="Sign In">
     </div>
-    <div class="__picture"></div>
+</header>
+<section class="dream-big">
+    <div class="dream-big__bluerectangle">
+        <div class="dream-big__info">
+            <h1 class="dream-big__hfirst">E-learning</h1>
+            <h2 class="dream-big__hsecond">Dream big Do right!</h2>
+            <p class="dream-big__text">
+                Site helps remote teams share ideas, save knowledge,
+                and work together anytime, any place.
+            </p>
+            <div class="buttons">
+                <input class="_big-blue-button" type="button" value="Get Started Now">
+                <a class="_watch-play" href="#"></a>
+                <input class="_watch" type="button" value="Watch our platform!">
+            </div>
+        </div>
+        <div class="dream-big__note"></div>
+    </div>
+    <div class="dream-big__whiterectangle">
+        <div class="dream-big__parallelepiped"></div>
+    </div>
 </section>
-<section class="container_4">
-        <div class="pages"></div>
-        <div>
-            <h2>Get Started With
-                Our Basic plan</h2>
-            <p>
-                Dive into a doc together and express your first ideas,
-                get feedback, map out a plan or write up the final documentation.
-                Compose your most important work, together— no matter where you are in the world.
+<section class="about-us">
+    <h1 class="about-us__hfirst-row">about us</h1>
+    <div class="about-us__second-row">
+        <h2 class="about-us__hsecond">Get Started With Educa Studya.</h2>
+        <input class="about-us__button" type="button" value="view all">
+    </div>
+    <div class="about-us__third-row">
+        <div class="about-us__block">
+            <span class="about-us__block-text _faster">Faster</span>
+        </div>
+        <div class="about-us__block">
+            <span class="about-us__block-text _cheeper">Cheeper</span>
+        </div>
+        <div class="about-us__block">
+            <span class="about-us__block-text _at-hand">At hand</span>
+        </div>
+    </div>
+</section>
+<section class="features">
+    <h1 class="features__header">Educa Studya Features</h1>
+    <div class="features__content">
+        <div class="features__left-column">
+            <div class="features__picture"></div>
+            <h2 class="features__hsecond">Where collaboration meets knowledge</h2>
+            <p class="features__text">
+                Dive into a doc together and express your first ideas, get feedback, map out a plan or write up the
+                final documentation. Compose your most important work, together— no matter where you are in the world.
             </p>
         </div>
-        <div class="container_4-buttons">
-            <input class="container_4__monthly" type="button" value="Monthly">
-            <input class="container_4__yearly" type="button" value="Yearly">
-        </div>
+        <div class="features__right-column"></div>
+    </div>
 </section>
-
-<section class="container_5">
-    <div>
-        <h2>Integrate with your
-            favorite tools.</h2>
-
-        <p>It's a best-in-class product that isn't trying to replace the rest of your stack.
-            That's why it integrates with everything else, including your spreadsheets, slide
-            decks, flowcharts, task managers, and much more. </p>
-        </div>
-    </section>
-<section class="container_6">
-    <h1>Featured</h1>
-    <div></div>
+<section class="basic_plan">
+    <div class="">
+    </div>
 </section>
-
-<section>
-<div class="container_7">
-    <h2>Get Started
-        With 7 Days</h2>
-    <p>
-        Site helps remote teams share ideas, save knowledge,
-        and work together anytime, any place.
-    </p>
-    <div class="_row-buttons">
+<section class="integrate-tools">
+    <div class="integrate-tools__content">
+        <div class="integrate-tools__left-column">
+            <div class="integrate-tools__picture"></div>
+            <h2 class="integrate-tools__hsecond">Integrate with your
+                favorite tools</h2>
+            <p class="integrate-tools__text">
+                t's a best-in-class product that isn't trying to replace the rest of your stack. That's why it
+                integrates with everything else, including your spreadsheets, slide decks, flowcharts, task managers,
+                and much more.
+            </p>
+        </div>
+        <div class="integrate-tools__right-column"></div>
+    </div>
+</section>
+<section class="basic-plan">
+    <div class="basic-plan__content">
+        <div class="basic-plan__left-column"></div>
+        <div class="basic-plan__right-column">
+            <div class="basic-plan__picture"></div>
+            <h2 class="basic-plan__hsecond">Get Started With Our Basic plan</h2>
+            <p class="basic-plan__text">
+                This A-Z guide offers a series of simple, bite-sized explainers to help anyone understand what AI is,
+                how it works and how it’s changing the world around us.
+            </p>
+            <div class="_buttons">
+                <input class="basic-plan__monthly" type="button" value="Monthly">
+                <input class="basic-plan__yearly" type="button" value="Yearly">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="featured">
+    <h1 class="featured__header">Featured</h1>
+    <div class="featured__content">
+        <div class="__column">
+            <div class="graphic-design__picture"></div>
+            <h2 class="__hsecond">Graphic Design</h2>
+            <p class="__text">
+                Graphic design is a craft where professionals create visual content to communicate and the messages. By
+                applying visual hierarchy and page layout techniques
+            </p>
+        </div>
+        <div class="сolumn">
+            <div class="uiux-design__picture"></div>
+            <h2 class="__hsecond">UIUX Design</h2>
+            <p class="__text">
+                User interface design or user interface engineering is the design of user interfaces for machines and
+                software, such as computers, home appliances, mobile devices, and other electronic devices ..
+            </p>
+        </div>
+        <div class="column">
+            <div class="development__picture"></div>
+            <h2 class="__hsecond">Development</h2>
+            <p class="__text">
+                Front-end web development is the practice of converting data to a graphical interface, through the use
+                of HTML, CSS, and JavaScript ..
+            </p>
+        </div>
+    </div>
+</section>
+<section class="get-started">
+    <div class="get-started__info">
+        <h2 class="get-started__hsecond">Get Started With 7 Days</h2>
+        <p class="get-started__text">Slite helps remote teams share ideas, save knowledge,
+            and work together anytime, any place.</p>
+    </div>
+    <div class="buttons">
         <input class="_big-blue-button" type="button" value="Get a Demo">
         <a class="_watch-play" href="#"></a>
         <input class="_watch" type="button" value="Watch our platform!">
     </div>
-</div>
+</section>
+<section class="footer">
+    <div class="footer__content">
+        <div class="footer__info">
+            <div class="footer__left">
+                <div class="footer__icon"></div>
+                <div>
+                    <h2 class="footer__contact">CONTACT</h2>
+                    <span class="footer__text-email">email@gmail.com</span>
+                </div>
+            </div>
+            <div class="footer__links">
+                <ul class="footer__text">
+                    <h2 class="footer__hsecond">Navigation</h2>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Course</a></li>
+                    <li><a href="#">Teachers</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+                <ul class="footer__text">
+                    <h2 class="footer__hsecond">Resources</h2>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">News Updates</a></li>
+                </ul>
+                <div class="footer__text footer_width-email">
+                    <h2 class="footer__hsecond">Stay up to date</h2>
+                    <p>Stay Informed On How You Can Make a Difference
+                    </p>
+                    <div class="footer__email-box">
+                        <input class="footer__email" type="email" placeholder="Your email address">
+                        <div class="footer__email-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" viewBox="0 0 12 10" fill="none">
+                            <path d="M0.00571428 10L12 5L0.00571428 0L0 3.88889L8.57143 5L0 6.11111L0.00571428 10Z" fill="white"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="educa-agency">© 2021 All Rights Reserved - Educa.agency</span>
+    </div>
+    
 </section>
 </body>
 </html>
