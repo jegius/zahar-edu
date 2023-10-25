@@ -544,12 +544,14 @@ input {
 }
 
 .__text {
-    min-width: 4rem;
-    min-height: 6.5rem;
+    width: 20rem;
+    height: 6.5rem;
     color: var(--text-color);
 }
-
-
+._less-then-others {
+    width: 19.5rem;
+}
+ 
 .uiux-design__picture {
     background: var(--featured-uiux-icon) no-repeat;
     min-width: 6rem;
