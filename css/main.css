@@ -15,11 +15,9 @@
   --text-color: #525d73;
   --bbb-granient_wb: #45bfff;
   --bbb-granient_b: #00a7ff;
-  --bbb-lg: linear-gradient(
-    90deg,
-    var(--bbb-granient_wb) 27.8%,
-    var(--bbb-granient_b) 98.65%
-  );
+  --bbb-lg: linear-gradient(90deg,
+      var(--bbb-granient_wb) 27.8%,
+      var(--bbb-granient_b) 98.65%);
   --button-text-color: #19b0ff;
   --about-us-h1-color: #10adff;
   --about-us-h2-color: #292e37;
@@ -34,16 +32,12 @@
   --footer-text-color: #4a556d;
   --footer-email-bg: #e0edff;
   --footer-email-border: #ccdbf1;
-  --footer-email-button-color: linear-gradient(
-    90deg,
-    var(--bbb-granient_wb) 27.8%,
-    var(--bbb-granient_b) 98.65%
-  );
+  --footer-email-button-color: linear-gradient(90deg,
+      var(--bbb-granient_wb) 27.8%,
+      var(--bbb-granient_b) 98.65%);
   --footer-email-button-box-shadow: rgba(12, 171, 255, .2);
-  --footer-email-hover: linear-gradient(
-    var(--menu-span-background),
-    var(--menu-span-background)
-  );
+  --footer-email-hover: linear-gradient(var(--menu-span-background),
+      var(--menu-span-background));
 
   /* images */
   --logo: url(../img/logo.png);
@@ -136,11 +130,13 @@ input {
   gap: 2.5rem;
 }
 
-.navigation__menu-item, .footer__li-item {
+.navigation__menu-item,
+.footer__li-item {
   color: var(--menu-text);
 }
 
-.navigation__menu-item:hover, .footer__li-item:hover {
+.navigation__menu-item:hover,
+.footer__li-item:hover {
   color: var(--menu-input);
 }
 
@@ -670,10 +666,9 @@ input {
 }
 
 .educa-agency {
-color: var(--footer-text-color);
+  color: var(--footer-text-color);
 }
 
-/* mixin */
 .buttons {
   display: flex;
   gap: 1rem;
