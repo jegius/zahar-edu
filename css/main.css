@@ -96,12 +96,6 @@ ul {
   list-style-type: none;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
 input {
   margin: 0;
   padding: 0;
@@ -825,4 +819,10 @@ input {
 
 .cursor_pointer {
   cursor: pointer;
+}
+
+.picture {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
