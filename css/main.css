@@ -185,7 +185,8 @@ input {
 }
 
 .navigation__login:hover,
-.navigation__signin:hover {
+.navigation__signin:hover,
+.about-us__button:hover {
   color: var(--menu-span-background);
 }
 
